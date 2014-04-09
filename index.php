@@ -37,7 +37,6 @@ $r = new ResizeClass();
 <div id='main'>
 
 	<h1>PHP Image Resizer with S3 Support</h1>
-
 	<div class='block'>
 		<?php $settings = array('w'=>300); ?>
 		<div><img src='<?=$r->run('dog.jpg',$settings)?>' border='0' /></div>
